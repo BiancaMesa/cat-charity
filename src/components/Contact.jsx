@@ -14,6 +14,7 @@ function Contact() {
             {/* <input className="contactContainer__form--inputDescription" id="description" name="description" type="text" placeholder="Tell us..."/> */}
             <textarea className="contactContainer__form--inputDescription"  rows="5" cols="40" id="description" placeholder="Tell us...">
             </textarea>
+            <button className="contactContainer__form--submitButton">Submit</button>
         </form>
     </section>
   );

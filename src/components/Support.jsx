@@ -9,7 +9,7 @@ function Support() {
         <p className="supportContainer__description">Cat purring lap thread dangling curl play hide and seek magic protection good energy kitten crystals sleep angels good heart furry babies. 
         We are so thankful for all of the beautiful souls who donate because thanks to them these angels can have a better quality of life.
         Small amounts make a great difference.</p>
-        <button className="supportContainer__patreonButton">Patreon</button>
+        <button className="supportContainer__patreonButton" target="_blank">Patreon</button>
     </section>
   );
 }
