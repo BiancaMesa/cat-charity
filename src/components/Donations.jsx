@@ -24,19 +24,19 @@ function Donations() {
                 <div className="vetCareMiniSection">
                     <i className="vetCareMiniSection__icon fa-solid fa-user-doctor"></i>
                     <h3 className="vetCareMiniSection__title">Vet care</h3>
-                    <p className="vetCareMiniSection__description">Currently there is only one cat, Michaela, that is receiving vet care because of her complex situation. Our hope is one, to be able to offer Michaela better vet care, and secondly, to be able to offer any cat who is need of medical care, the .. they need.</p>
+                    <p className="vetCareMiniSection__description">Currently there is only one cat, Michaela, that is receiving vet care because of her complex situation. Our hope is one, to be able to offer Michaela better vet care, and secondly, to be able to offer any cat who is in need of medical care, the help they need.</p>
                 </div>
 
                 <div className="foreverHomeMiniSection">
                     <i className="foreverHomeMiniSection__icon fa-solid fa-heart"></i>
                     <h3 className="foreverHomeMiniSection__title">Forever home</h3>
-                    <p className="foreverHomeMiniSection__description">Currently there is only one cat, Michaela, that is receiving vet care because of her complex situation. Our hope is one, to be able to offer Michaela better vet care, and secondly, to be able to offer any cat who is need of medical care, the .. they need.</p>
+                    <p className="foreverHomeMiniSection__description">Currently there is only one cat, Michaela, that is receiving vet care because of her complex situation. Our hope is one, to be able to offer Michaela better vet care, and secondly, to be able to offer any cat who is in need of medical care, the help they need.</p>
                 </div>
 
                 <div className="fosterMiniSection">
                     <i className="fosterMiniSection__icon fa-solid fa-house"></i>
                     <h3 className="fosterMiniSection__title">Foster</h3>
-                    <p className="fosterMiniSection__description">Currently there is only one cat, Michaela, that is receiving vet care because of her complex situation. Our hope is one, to be able to offer Michaela better vet care, and secondly, to be able to offer any cat who is need of medical care, the .. they need.</p>
+                    <p className="fosterMiniSection__description">Currently there is only one cat, Michaela, that is receiving vet care because of her complex situation. Our hope is one, to be able to offer Michaela better vet care, and secondly, to be able to offer any cat who is in need of medical care, the help they need.</p>
                 </div>
             </div>
             
