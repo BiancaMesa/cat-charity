@@ -1,11 +1,46 @@
 .supportContainer {
+    margin: 20px 0; 
+    padding: 0 20px; 
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
     &__title {
+        margin-bottom: 10px;
+       // padding-bottom: 10px;
+        //border-bottom: 1px solid rgb(57, 57, 57);
+        
+    }
+
+    &__titleBottomLine {
+        margin-bottom: 20px;
+        //padding: 1px;
+        //background-image: linear-gradient(to left, transparent, #a992ad 25%, #c0b7e8 45%, rgb(197, 156, 194) 65%, #cab4cb 75%, transparent);
+        // background-image: linear-gradient(to left, transparent, rgb(186, 119, 169) 25%, rgb(189, 152, 186) 50%, rgb(186, 119, 169) 25%, transparent);
+        // background-image: linear-gradient(to left, transparent, rgb(189, 152, 186),transparent);
+        border: 0.8px solid rgb(107, 94, 106);
+        width: 200px;
+    }
+
+    &__subtitle {
+        margin-bottom: 10px;
 
     }
 
     &__description {
+        margin-bottom: 20px;
         
+    }
+
+    &__patreonButton {
+        background-color: rgb(79, 83, 84);
+        color: white;
+        border: none;
+        border-radius: 15px 20px;
+        padding: 10px 20px;
+        font-size: 15px;
+        cursor: pointer; 
     }
 }
