@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import CatsContainer from "./CatsContainer";
 import Donations from "./Donations";
 import Support from "./Support";
+import Contact from "./Contact";
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
       <CatsContainer />
       <Donations />
       <Support />
+      <Contact />
     </main>
   );
 }

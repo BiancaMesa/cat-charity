@@ -12,7 +12,7 @@ function Donations() {
         </div>
 
         <div className="donationsContainer__goalsSection">
-            <h2 className="donationsContainer__goalsSection--title">Goals</h2>
+            <h1 className="donationsContainer__goalsSection--title">Goals</h1>
 
             <div className="donationsContainer__goalsSection--goals">
                 <div className="spayingMiniSection">
