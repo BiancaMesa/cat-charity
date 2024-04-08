@@ -1,0 +1,18 @@
+.cardContainer {
+    border: 0.6px solid rgb(182, 180, 181);
+    border-radius: 5px; 
+    padding: 10px; 
+    text-align: center;
+
+    &__name {
+        
+    }
+
+    &__image {
+        width: 200px;
+    }
+
+    &__description {
+
+    }
+}

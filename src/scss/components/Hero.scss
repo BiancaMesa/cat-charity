@@ -1,0 +1,16 @@
+.heroContainer {
+    position: relative; 
+
+    &__title {
+        position: absolute; 
+        top: 50px; 
+        left: 50px; 
+        color: white; 
+        font-size: 30px;
+    }
+
+    &__heroImage {
+        //width: 460px; 
+        width: 100%;
+    }
+}

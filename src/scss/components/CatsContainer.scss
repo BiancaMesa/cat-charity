@@ -1,0 +1,28 @@
+.catsContainer {
+    margin: 20px 0 30px 0;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 7px; 
+    }
+
+    &__title2 {
+        margin-bottom: 7px; 
+        color: rgb(194, 173, 195);
+    }
+
+    &__subtitle {
+
+    }
+
+
+    &__allCards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px; 
+        gap: 20px; 
+
+        
+    }
+}
