@@ -2,17 +2,64 @@
     border: 0.6px solid rgb(182, 180, 181);
     border-radius: 5px; 
     padding: 10px; 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    //align-items:start;
+    width: 80vw; 
+   
 
     &__name {
-        
+        align-self: center;
+        //font-family: "Shadows Into Light", cursive;
     }
 
     &__image {
         width: 200px;
+        align-self: center;
+        margin: 10px 0 20px 0;
     }
 
-    &__description {
-
+    &__details {
+      //margin-left: 60px;
+      padding-left: 10px; 
+      margin-bottom: 5px;
+      //font-weight: bold;
+      color: rgb(59, 57, 56);
+      //font-family: "Shadows Into Light", cursive;
+      //font-family: "Montserrat", sans-serif;
+      //letter-spacing: -0.9px;
+      //font-family: "Merriweather", serif;
+      font-size: 17px;
     }
+
+    // &__sex {
+    //     text-align: start;
+
+    // }
+
+    // &__neutered {
+    //     text-align: start;
+
+    // }
+
+    // &__age {
+    //     text-align: start;
+    // }
+
+    // &__health {
+    //     text-align: start;
+    // }
+
+    // &__residence {
+    //     text-align: start;
+    // }
+
+    // &__superpower {
+    //     text-align: start;
+    // }
+
+    // &__description {
+    //     text-align: start;
+
+    // }
 }

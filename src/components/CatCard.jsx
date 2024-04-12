@@ -5,16 +5,58 @@ import "../scss/components/CatCard.scss";
 function CatCard() {
   return (
     <>
-    <section className="cardContainer">
-        <h2 className="cardContainer__name">Suki</h2>
+      <section className="cardContainer">
+
+      <h2 className="cardContainer__name">Suki</h2>
         <img className="cardContainer__image" src={cat1} alt="cat1" />
-        <p className="cardContainer__description">Description</p>
+        <p className="cardContainer__details"><strong>Sex:</strong> female</p>
+        <p className="cardContainer__details"><strong>Neutered:</strong> no</p>
+        <p className="cardContainer__details"><strong>Age:</strong> 3 years aprox.</p>
+        <p className="cardContainer__details"><strong>Health situation: </strong>Calicivirus but under control. Besides that she looks super healthy</p>
+        <p className="cardContainer__details"><strong>Lives in:</strong> garden station</p>
+        <p className="cardContainer__details"><strong>Superpower:</strong> her sweetness</p>
+        <p className="cardContainer__details"><strong>You will fall in love with</strong> her cute way of being. </p>
+        <p className="cardContainer__details"><strong>Description:</strong> Cat purring lap thread dangling curl play hide and seek magic protection good energy kitten crystals sleep angels good heart furry babies witches </p>
       </section>
+      
       <section className="cardContainer">
         <h2 className="cardContainer__name">Mística</h2>
         <img className="cardContainer__image" src={cat2} alt="cat2" />
+        <p className="cardContainer__details">Sex</p>
+        <p className="cardContainer__details">Neutered</p>
+        <p className="cardContainer__details">Age</p>
+        <p className="cardContainer__details">Health situation</p>
+        <p className="cardContainer__details">Lives in</p>
+        <p className="cardContainer__details">Superpower</p>
+        <p className="cardContainer__details">You will fall in love with her/his ...</p>
+        <p className="cardContainer__details">Description</p>
+      </section>
+
+      {/* <section>
+        <h2 className="cardContainer__name">Suki</h2>
+        <img className="cardContainer__image" src={cat1} alt="cat1" />
+        <p className="cardContainer__sex">Sex</p>
+        <p className="cardContainer__neutered">Neutered</p>
+        <p className="cardContainer__age">Age</p>
+        <p className="cardContainer__health">Health situation</p>
+        <p className="cardContainer__residence">Lives in</p>
+        <p className="cardContainer__superpower">Superpower</p>
+        <p className="cardContainer__fallFor">You will fall in love with her/his ...</p>
         <p className="cardContainer__description">Description</p>
-        </section>
+      </section>
+      
+      <section className="cardContainer">
+        <h2 className="cardContainer__name">Mística</h2>
+        <img className="cardContainer__image" src={cat2} alt="cat2" />
+        <p className="cardContainer__sex">Sex</p>
+        <p className="cardContainer__neutered">Neutered</p>
+        <p className="cardContainer__age">Age</p>
+        <p className="cardContainer__health">Health situation</p>
+        <p className="cardContainer__residence">Lives in</p>
+        <p className="cardContainer__superpower">Superpower</p>
+        <p className="cardContainer__fallFor">You will fall in love with her/his ...</p>
+        <p className="cardContainer__description">Description</p>
+      </section> */}
     </>
   );
 }

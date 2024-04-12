@@ -1,17 +1,23 @@
 .headerContainer {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     padding: 20px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    gap: 20px; 
 
 
     &__titlesContainer {
         text-align: center;
-        margin-left: 20px;
+        //margin-left: 20px;
+        //align-self: center;
+        margin-right: 10%;
         color: rgb(149, 191, 210);
 
         &--mainTitle {
             margin-left: 20px;
             color: rgb(152, 184, 202);
+            font-size: 27px;
         }
     
         &--subtitle {
@@ -22,14 +28,16 @@
 
     
     &__menuContainer {
-        margin-left: 100px; 
+        //margin-left: 100px; 
+        padding-right: 30px; 
+       
         color: rgb(133, 174, 193);
 
         &--menu {
             list-style-type: none;
             display: flex;
             flex-direction: column;
-            //align-self: end;
+
 
             .menuElement {
                 align-self: self-end;

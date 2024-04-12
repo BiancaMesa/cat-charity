@@ -7,7 +7,11 @@ function Header() {
   return (
     <header className="headerContainer">
         <section className="headerContainer__titlesContainer">
-            <h1 className="headerContainer__titlesContainer--mainTitle">Gatos de Ogíjares <i className="fa-solid fa-heart"></i> </h1>
+            <h1 className="headerContainer__titlesContainer--mainTitle">
+              <Link to="/">
+              Gatos de Ogíjares <i className="fa-solid fa-heart"></i> 
+              </Link>
+              </h1>
             <h2 className="headerContainer__titlesContainer--subtitle">Street angels</h2>
         </section>
         
@@ -28,7 +32,13 @@ function Header() {
               <li className="menuElement">Goals</li>
               <li className="menuElement">Support</li>
               <li className="menuElement">Transparency</li>
-              <li className="menuElement">Contact</li>
+              <li className="menuElement">The Story</li>
+              <li className="menuElement">
+                <Link to="/contact">
+                Contact
+                </Link>
+              </li>
+              
                 
             </ul>
         </section>
