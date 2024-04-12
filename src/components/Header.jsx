@@ -1,4 +1,5 @@
 import "../scss/components/Header.scss";
+import {Link} from "react-router-dom";
 import ukFlag from "../images/uk_flag.png";
 
 
@@ -18,7 +19,11 @@ function Header() {
                     English
                   <i className="menuElementFlag__flagArrow fa-solid fa-angle-down"></i>
               </li>
-              <li className="menuElement">Meet the cats</li>
+              <li className="menuElement">
+                <Link to="meet-the-cats">
+                  Meet the cats
+                </Link>
+              </li>
               <li className="menuElement">Mission</li>
               <li className="menuElement">Goals</li>
               <li className="menuElement">Support</li>

@@ -15,6 +15,11 @@ function Donations() {
             <h1 className="donationsContainer__goalsSection--title">Goals</h1>
 
             <div className="donationsContainer__goalsSection--goals">
+                <div className="foodMiniSection">
+                    <i className="foodMiniSection__icon fa-solid fa-bowl-food"></i>
+                    <h3 className="foodMiniSection__title">Better Quality Food</h3>
+                    <p className="foodMiniSection__description">Right now we can only afford the cheapest unhealthy food. We strive for food that is more nutrient-dense and healthier, with ingredients that contribute positively to their health.</p>
+                </div>
                 <div className="spayingMiniSection">
                     <i className="spayingMiniSection__icon fa-solid fa-kit-medical"></i>
                     <h3 className="spayingMiniSection__title">Spaying & neutering</h3>

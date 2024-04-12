@@ -1,4 +1,5 @@
 import "../scss/components/Main.scss";
+import { Route, Routes } from "react-router-dom";
 import Hero from "./Hero";
 import CatsContainer from "./CatsContainer";
 import Donations from "./Donations";
@@ -9,7 +10,16 @@ function Main() {
   return (
     <main>
       <Hero />
-      <CatsContainer />
+    <Routes>
+    <Route path="meet-the-cats" element={
+          <CatsContainer />
+        } />
+
+
+    </Routes>
+       
+
+
       <Donations />
       <Support />
       <Contact />

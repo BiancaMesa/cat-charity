@@ -47,6 +47,31 @@
             gap: 20px; 
             padding: 0 15px;
 
+            .foodMiniSection {
+                width: 200px;
+
+                &__icon {
+                    font-size: 25px; 
+                    border: 0.6px solid rgb(255, 255, 255); 
+                    border-radius: 50px;
+                    padding: 20px;
+                    background-color: white;
+                    color: rgb(224, 194, 199);
+                }
+
+                &__title {
+                    margin: 10px 0;
+                    // border: 0.6px solid rgb(132, 110, 134); 
+                    // border-radius: 50px;
+                    // padding: 10px 0;
+                    // background-color: white;
+                }
+
+                &__description {
+
+                }
+            }
+
             .spayingMiniSection {
                 width: 200px;
 
