@@ -3,9 +3,10 @@ import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
 import "../scss/App.scss";
-import Contact from "./Contact";
+import Stations from "./Stations";
 import Transparency from "./Transparency";
 import TheStory from "./TheStory";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -26,6 +27,14 @@ function App() {
           <>
             <Header />
             <Contact/>
+            <Footer />
+          </>
+        }/>
+
+        <Route path="stations" element ={
+          <>
+            <Header />
+            <Stations />
             <Footer />
           </>
         }/>
