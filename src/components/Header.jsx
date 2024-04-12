@@ -1,5 +1,5 @@
 import "../scss/components/Header.scss";
-import usaFlag from "../images/usa_flag2.png";
+import ukFlag from "../images/uk_flag.png";
 
 
 function Header() {
@@ -14,7 +14,7 @@ function Header() {
         <section className="headerContainer__menuContainer">
             <ul className="headerContainer__menuContainer--menu">
               <li className="menuElement menuElementFlag">
-                  <img className="menuElementFlag__flag" src={usaFlag} alt="usa-flag"/>
+                  <img className="menuElementFlag__flag" src={ukFlag} alt="usa-flag"/>
                     English
                   <i className="menuElementFlag__flagArrow fa-solid fa-angle-down"></i>
               </li>
