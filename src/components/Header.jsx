@@ -31,8 +31,16 @@ function Header() {
               <li className="menuElement">Mission</li>
               <li className="menuElement">Goals</li>
               <li className="menuElement">Support</li>
-              <li className="menuElement">Transparency</li>
-              <li className="menuElement">The Story</li>
+              <li className="menuElement">
+                <Link to="/transparency">
+                  Transparency
+                </Link>
+              </li>
+              <li className="menuElement">
+                <Link to="/the-story">
+                  The Story
+                </Link>
+              </li>
               <li className="menuElement">
                 <Link to="/contact">
                 Contact
