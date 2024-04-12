@@ -4,11 +4,13 @@
     &__title {
         position: absolute; 
         top: 50px; 
+        //centrar el texto
         left: 50%; 
         transform: translateX(-50%);
+        //
         color: white; 
         font-size: 30px;
-        white-space: nowrap;
+        white-space: nowrap; //Evitar salto de línea
 
         @media screen and (min-width: 540px ) {
             font-size: 40px;
