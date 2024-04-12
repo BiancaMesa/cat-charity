@@ -18,11 +18,31 @@
             margin-left: 20px;
             color: rgb(152, 184, 202);
             font-size: 27px;
+
+            @media screen and (min-width: 650px ) {
+                font-size: 35px;
+            }
+
+            @media screen and (min-width: 800px ) {
+                font-size: 40px;
+            }
+
+            @media screen and (min-width: 950px ) {
+                font-size: 45px;
+            }
+
+            @media screen and (min-width: 1020px ) {
+                font-size: 45px;
+            }
         }
     
         &--subtitle {
             margin-left: 20px;
             color: rgb(152, 184, 202);
+
+            @media screen and (min-width: 800px ) {
+                font-size: 30px;
+            }
         }
     }
 

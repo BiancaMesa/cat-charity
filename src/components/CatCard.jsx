@@ -9,9 +9,9 @@ import "../scss/components/CatCard.scss";
 function CatCard() {
   return (
     <>
-      <section className="cardContainer">
-        <h2 className="cardContainer__name">Lemonade</h2>
-        <img className="cardContainer__image" src={lemonade} alt="cat1" />
+     <section className="cardContainer">
+        <h2 className="cardContainer__name">Sirena</h2>
+        <img className="cardContainer__image" src={sirena} alt="cat2" />
         <p className="cardContainer__details"><strong>Sex:</strong> female</p>
         <p className="cardContainer__details"><strong>Neutered:</strong> no</p>
         <p className="cardContainer__details"><strong>Age:</strong> 3 years aprox.</p>
@@ -21,6 +21,8 @@ function CatCard() {
         <p className="cardContainer__details"><strong>You will fall in love with</strong> her cute way of being. </p>
         <p className="cardContainer__details"><strong>Description:</strong> Cat purring lap thread dangling curl play hide and seek magic protection good energy kitten crystals sleep angels good heart furry babies witches </p>
       </section>
+
+    
 
       <section className="cardContainer">
         <h2 className="cardContainer__name">Angelina</h2>
@@ -36,8 +38,8 @@ function CatCard() {
       </section>
       
       <section className="cardContainer">
-        <h2 className="cardContainer__name">Sirena</h2>
-        <img className="cardContainer__image" src={sirena} alt="cat2" />
+        <h2 className="cardContainer__name">Lemonade</h2>
+        <img className="cardContainer__image" src={lemonade} alt="cat1" />
         <p className="cardContainer__details"><strong>Sex:</strong> female</p>
         <p className="cardContainer__details"><strong>Neutered:</strong> no</p>
         <p className="cardContainer__details"><strong>Age:</strong> 3 years aprox.</p>
@@ -47,7 +49,6 @@ function CatCard() {
         <p className="cardContainer__details"><strong>You will fall in love with</strong> her cute way of being. </p>
         <p className="cardContainer__details"><strong>Description:</strong> Cat purring lap thread dangling curl play hide and seek magic protection good energy kitten crystals sleep angels good heart furry babies witches </p>
       </section>
-
       
 
       {/* <section>

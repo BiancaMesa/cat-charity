@@ -4,9 +4,24 @@
     &__title {
         position: absolute; 
         top: 50px; 
-        left: 50px; 
+        left: 50%; 
+        transform: translateX(-50%);
         color: white; 
         font-size: 30px;
+        white-space: nowrap;
+
+        @media screen and (min-width: 540px ) {
+            font-size: 40px;
+        }
+
+        @media screen and (min-width: 650px ) {
+            font-size: 50px;
+        }
+
+        @media screen and (min-width: 900px ) {
+            font-size: 60px;
+            // left: 100px; 
+        }
     }
 
     &__heroImage {
