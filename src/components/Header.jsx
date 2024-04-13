@@ -32,7 +32,7 @@ function Header() {
               <li className="menuElement">Goals</li>
               <li className="menuElement">
                 <Link to="/stations">
-                  Feeding Stations
+                  Stations
                 </Link>
               </li>
               <li className="menuElement">Support</li>
