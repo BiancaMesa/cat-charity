@@ -32,7 +32,7 @@
 
         @media screen and (min-width: 1100px ) {
             width: 60vw; 
-        // margin: 0 20px;
+            // margin: 0 20px;
         }
 
     &__container1 {
@@ -52,9 +52,17 @@
             border-radius: 30px;
             font-size: 30px;
             letter-spacing: 1px;
+            background-color: transparent;
+            color: black;
             
+            .catNameHeart {
+                font-size: 28px;
+                color: rgb(157, 199, 216);
+            }
             
         }
+
+
 
         &--image {
             width: 200px;
@@ -85,6 +93,16 @@
       display: flex;
       flex-direction: column;
       align-items: start;
+
+      &--detailsCategory {
+        font-size: bold;
+        //background-color: rgb(210, 210, 210);
+        // border: 1px solid black;
+        // border-radius: 2px;
+        font-weight: bold;
+        // padding: 0 6px;
+        color: rgb(130, 145, 169);
+      }
       
     }
 
@@ -121,8 +139,9 @@
 }
 
 .flower {
-    width: 100px; 
-    height: 50px;
+    //width: 100px; 
+    width: 50px;
+    //height: 40px;
    // transform: translate(-450%, 750%);
-   margin: 10px 10px 0 0;
+    //margin: 10px 10px 0 0;
 }

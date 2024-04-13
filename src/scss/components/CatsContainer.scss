@@ -1,5 +1,5 @@
 .catsContainer {
-    padding: 20px 0 30px 0;
+    padding: 60px 0 30px 0;
    // text-align: center;
     // background-image: url("https://cdn.hswstatic.com/gif/why-is-sky-blue.jpg");
     // background-repeat: no-repeat;
@@ -7,13 +7,14 @@
 
     @media screen and (min-width: 1100px ) {
         //gap: 100px; 
-        padding: 0 150px;
+        //padding: 0 150px;
     
     }
 
     &__title {
         margin-bottom: 7px; 
         text-align: center;
+        font-size: 40px;
     }
 
     &__title2 {
@@ -21,9 +22,14 @@
         color: rgb(194, 173, 195);
         font-family: "Shadows Into Light";
         font-size: 30px;
-        font-style: oblique;
+        //font-style: oblique;
+        border-bottom: 1px solid;
+        //width:400px;
+        //left: 50%;
+        transform: translateX(30%);
         letter-spacing: 0.8px;
         text-align: center;
+        padding-right: 20px;
     }
 
     &__subtitle {
