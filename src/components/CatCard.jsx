@@ -3,7 +3,10 @@
 import angelina from "../images/angelina.jpeg";
 import sirena from "../images/sirena2.jpeg";
 import suki from "../images/suki2.jpeg";
-import lemonade from "../images/lemonade2.jpeg"
+import lemonade from "../images/lemonade2.jpeg";
+import flower1 from "../images/cherry-blossom.png";
+import flower2 from "../images/flower-pot.png";
+ import flower3 from "../images/sakura.png";
 import "../scss/components/CatCard.scss";
 
 function CatCard() {
@@ -24,6 +27,7 @@ function CatCard() {
             <p className="cardContainer__details"><strong>You will fall in love with</strong> her cute way of being. </p>
             <p className="cardContainer__details"><strong>Description:</strong> Cat purring lap thread dangling curl play hide and seek magic protection good energy kitten crystals sleep angels good heart furry babies witches </p>
         </div>
+        <img className="flower" src={flower3} alt="flower" />
       </section>
 
     
@@ -43,6 +47,7 @@ function CatCard() {
             <p className="cardContainer__details"><strong>You will fall in love with</strong> her cute way of being. </p>
             <p className="cardContainer__details"><strong>Description:</strong> Cat purring lap thread dangling curl play hide and seek magic protection good energy kitten crystals sleep angels good heart furry babies witches </p>
         </div>
+        <img className="flower" src={flower3} alt="flower" />
       </section>
       
       <section className="cardContainer">
@@ -60,6 +65,7 @@ function CatCard() {
             <p className="cardContainer__details"><strong>You will fall in love with</strong> her cute way of being. </p>
             <p className="cardContainer__details"><strong>Description:</strong> Cat purring lap thread dangling curl play hide and seek magic protection good energy kitten crystals sleep angels good heart furry babies witches </p>
         </div>
+        <img className="flower" src={flower3} alt="flower" />
       </section>
       
 
