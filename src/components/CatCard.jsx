@@ -20,15 +20,49 @@ function CatCard() {
             <h2 className="cardContainer__container1--name">Sirena <i className="catNameHeart fa-solid fa-heart"></i>  </h2>
             {/* <h2 className="cardContainer__container1--name">Sirena   <img className="flower" src={flower3} alt="flower" /></h2> */}
             {/* <p className="cardContainer__details"><strong>Sex:</strong> female ♀️</p> */}
-            <span className="cardContainer__container2--detailsCategory">Sex</span>
+
+            <div className="categoryGroup">
+            <span className="cardContainer__container2--detailsCategory">Sex:</span>
             <p className="cardContainer__details"> female ♀️</p>
-            <p className="cardContainer__details"><strong>Neutered:</strong> no</p>
-            <p className="cardContainer__details"><strong>Age:</strong> 3 years aprox.</p>
-            <p className="cardContainer__details"><strong>Health situation : </strong>calicivirus but under control. Besides that she looks super healthy</p>
-            <p className="cardContainer__details"><strong>Lives in:</strong> garden station</p>
-            <p className="cardContainer__details"><strong>Superpower ⚡️:</strong> her sweetness</p>
-            <p className="cardContainer__details"><strong>You will fall in love with</strong> her cute way of being. </p>
-            <p className="cardContainer__details"><strong>Description:</strong> Cat purring lap thread dangling curl play hide and seek magic protection good energy kitten crystals sleep angels good heart furry babies witches </p>
+           
+
+            </div>
+            
+            <div className="categoryGroup">
+            <span className="cardContainer__container2--detailsCategory">Neutered:</span> <p>no</p>
+            </div>
+            
+
+            <div className="categoryGroup">
+            <span className="cardContainer__container2--detailsCategory">Age:</span> <p>3 years aprox.</p>
+
+            </div>
+           
+
+          <div className="categoryGroup">
+          <span className="cardContainer__container2--detailsCategory">Health situation : </span> <p>calicivirus but under control. Besides that she looks super healthy</p>
+          </div>
+           
+          <div className="categoryGroup">
+          <span className="cardContainer__container2--detailsCategory">Lives in:</span> <p>garden station</p>
+          </div>
+           
+   
+           <div className="categoryGroup">
+           <span className="cardContainer__container2--detailsCategory">Superpower: </span> <p> her sweetness</p>
+           </div>
+
+            
+       
+            <div className="categoryGroup">
+            <span className="cardContainer__container2--detailsCategory"> </span>You will fall in love with <p> her cute way of being. </p>
+            </div>
+            
+
+d           <div className="categoryGroup">
+          <span className="cardContainer__container2--detailsCategory">Description: </span> <p>Cat purring lap thread dangling curl play hide and seek magic protection good energy kitten crystals sleep angels good heart furry babies witches </p>
+          </div>
+            
         </div>
         {/* <img className="flower" src={flower3} alt="flower" /> */}
       </section>

@@ -93,6 +93,11 @@
       display: flex;
       flex-direction: column;
       align-items: start;
+      color: rgb(130, 145, 169);
+
+      .categoryGroup {
+        display: flex;
+      }
 
       &--detailsCategory {
         font-size: bold;
@@ -101,7 +106,7 @@
         // border-radius: 2px;
         font-weight: bold;
         // padding: 0 6px;
-        color: rgb(130, 145, 169);
+        color: rgb(69, 70, 71);
       }
       
     }
