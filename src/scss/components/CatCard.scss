@@ -8,7 +8,8 @@
     //flex-direction: column;
     //justify-content:start;
     width: 80vw; 
-    background-color: rgba(241, 242, 240, 0.5);
+    //background-color: rgba(241, 242, 240, 0.5);
+    background-color: rgba(248, 244, 243, 0.956);
     //box-shadow: 5px 5px 10px 1px rgb(237, 232, 237);
    
   
@@ -37,6 +38,7 @@
 
     &__container1 {
         text-align: center;
+        align-content: center;
         //align-self: center;
 
         &--name {
@@ -83,7 +85,7 @@
 
     &__container2 {
       //padding-left: 10px; 
-      margin: 30px 15px 5px 35px;
+      margin: 0px 15px 20px 35px;
       //font-weight: bold;
       color: rgb(59, 57, 56);
       //font-family: "Shadows Into Light", cursive;

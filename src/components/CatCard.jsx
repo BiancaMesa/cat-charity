@@ -13,6 +13,7 @@ function CatCard() {
   return (
     <>
      
+     {/* Sirena */}
       <section className="cardContainer">
         <div className="cardContainer__container1">
           <img
@@ -35,29 +36,28 @@ function CatCard() {
           </p>
 
           <p className="cardContainer__container2--details">
-            <span className="detailsCategoryName">Age:</span> 3 years aprox.
+            <span className="detailsCategoryName">Age:</span> Almost 2 years. Born in August 2022.
           </p>
 
           <p className="cardContainer__container2--details">
             <span className="detailsCategoryName">Health situation: </span>
-            Calicivirus but under control. Besides that she looks super healthy
+            She is in perfect health 
           </p>
 
           <p className="cardContainer__container2--details">
-            <span className="detailsCategoryName">Lives in:</span> garden
-            station
+            <span className="detailsCategoryName">Lives in: </span> 
+            station 1
           </p>
 
           <p className="cardContainer__container2--details">
             <span className="detailsCategoryName">Superpower:</span> her
-            sweetness
+            care, her affection and her aliveness
           </p>
 
           <p className="cardContainer__container2--details">
             <span className="detailsCategoryName">
-              You will fall in love with
-            </span>{" "}
-            her cute way of being.{" "}
+              You will fall in love with 
+            </span> her care, her affection and her aliveness.
           </p>
 
           <p className="cardContainer__container2--details">
@@ -69,6 +69,7 @@ function CatCard() {
         </div>
       </section>
 
+      {/* Angelina */}
       <section className="cardContainer">
         <div className="cardContainer__container1">
           <img
@@ -125,6 +126,7 @@ function CatCard() {
         </div>
       </section>
 
+     {/* Lemonade */}
       <section className="cardContainer">
         <div className="cardContainer__container1">
           <img
@@ -135,7 +137,7 @@ function CatCard() {
         </div>
         <div className="cardContainer__container2">
           <h2 className="cardContainer__container1--name">
-            Angelina <img className="flower" src={flower3} alt="flower" />
+            Lemonade <img className="flower" src={flower3} alt="flower" />
           </h2>
 
           <p className="cardContainer__container2--details">

@@ -56,6 +56,11 @@
        
         color: rgb(133, 174, 193);
 
+        &--hamburgerMenu {
+            font-size: 35px;
+            color: rgb(133, 174, 193, 0.7);
+        }
+
         &--menu {
             list-style-type: none;
             display: flex;
