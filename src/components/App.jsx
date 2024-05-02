@@ -47,7 +47,7 @@ function App() {
             <Footer />
           </>
         }/>
-        <Route path="the-story" element ={
+        <Route path="/the-story" element ={
           <>
             <Header />
             <TheStory />
