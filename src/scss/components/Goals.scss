@@ -1,24 +1,23 @@
 
 .goalsContainer {
     //margin-top: 20px;
-    padding: 60px 0; 
+    padding: 60px 0 80px 0; 
     background-color: rgb(233, 225, 225);
     text-align: center;
 
     &__title {
         font-size: 40px;
-
     }
 
     &__goals {
-        margin-top: 40px;
+        margin-top: 50px;
         display: flex;
         flex-wrap: wrap;
         //text-align: center;
-        justify-content: space-evenly;
+        justify-content: center;
         //align-content: space-evenly;
         gap: 40px; 
-        padding: 0 50px;
+        padding: 0 100px;
 
         .foodMiniSection {
             width: 200px;
@@ -50,7 +49,7 @@
             }
 
             &__description {
-
+                text-align: justify;
             }
         }
 
@@ -79,7 +78,7 @@
             }
 
             &__description {
-
+                text-align: justify;
             }
         }
 
@@ -108,6 +107,7 @@
             }
 
             &__description {
+                text-align: justify;
 
             }
         }
@@ -137,6 +137,7 @@
             }
 
             &__description {
+                text-align: justify;
 
             }
         }
@@ -166,6 +167,7 @@
             }
 
             &__description {
+                text-align: justify;
 
             }   
         }
