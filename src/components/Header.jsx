@@ -1,6 +1,7 @@
 import "../scss/components/Header.scss";
 import {Link} from "react-router-dom";
 import ukFlag from "../images/uk_flag.png";
+import Navbar from "./Navbar";
 
 
 function Header() {
@@ -21,8 +22,10 @@ function Header() {
         </section>
         
 
+        {/* <Navbar /> */}
         <section className="headerContainer__menuContainer">
-          <i className="headerContainer__menuContainer--hamburgerMenu fa-solid fa-bars" onHover={onHoverHamburgerMenu}></i>     
+        <Navbar />
+          {/* <i className="headerContainer__menuContainer--hamburgerMenu fa-solid fa-bars" onHover={onHoverHamburgerMenu}></i>      */}
         </section>
        
         {/* <section className="headerContainer__menuContainer">
